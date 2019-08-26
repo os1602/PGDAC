@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sum_of_ten.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="factorial.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pnz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sumOfDigit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="palindrome.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="special.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="armstrong.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sum_till_zero.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5num.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="num_after_num.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="start_end.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seodd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="occurance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="highest_number.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lowest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="second_highest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonacci.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="divisible.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pattern_num.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pattern_alpha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prime_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prime_usr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

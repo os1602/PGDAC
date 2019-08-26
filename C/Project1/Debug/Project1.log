@@ -1,0 +1,65 @@
+﻿Build started 10-08-2019 19:37:35.
+     1>Project "D:\omkar_shelar\Project1\Project1\Project1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt 5num.c armstrong.c divisible.c factorial.c fibonacci.c highest_number.c lowest.c num_after_num.c occurance.c palindrome.c pattern_alpha.c pattern_num.c pnz.c prime.c prime_2.c prime_usr.c rev.c second_highest.c seodd.c special.c start_end.c sumOfDigit.c sum_of_ten.c sum_till_zero.c tables.c
+         tables.c
+         sum_till_zero.c
+         sum_of_ten.c
+         sumOfDigit.c
+         start_end.c
+         special.c
+         seodd.c
+         second_highest.c
+         rev.c
+         prime_usr.c
+         prime_2.c
+         prime.c
+         pnz.c
+         pattern_num.c
+     1>d:\omkar_shelar\project1\project1\pattern_num.c(54): warning C4013: 'getch' undefined; assuming extern returning int
+         pattern_alpha.c
+         palindrome.c
+         occurance.c
+         num_after_num.c
+         lowest.c
+         highest_number.c
+         Generating Code...
+         Compiling...
+         fibonacci.c
+         factorial.c
+         divisible.c
+         armstrong.c
+         5num.c
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\omkar_shelar\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\omkar_shelar\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\omkar_shelar\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\5num.obj
+         Debug\armstrong.obj
+         Debug\divisible.obj
+         Debug\factorial.obj
+         Debug\fibonacci.obj
+         Debug\highest_number.obj
+         Debug\lowest.obj
+         Debug\num_after_num.obj
+         Debug\occurance.obj
+         Debug\palindrome.obj
+         Debug\pattern_alpha.obj
+         Debug\pattern_num.obj
+         Debug\pnz.obj
+         Debug\prime.obj
+         Debug\prime_2.obj
+         Debug\prime_usr.obj
+         Debug\rev.obj
+         Debug\second_highest.obj
+         Debug\seodd.obj
+         Debug\special.obj
+         Debug\start_end.obj
+         Debug\sumOfDigit.obj
+         Debug\sum_of_ten.obj
+         Debug\sum_till_zero.obj
+         Debug\tables.obj
+         Project1.vcxproj -> D:\omkar_shelar\Project1\Debug\Project1.exe
+     1>Done Building Project "D:\omkar_shelar\Project1\Project1\Project1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.90
