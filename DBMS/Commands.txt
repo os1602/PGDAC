@@ -1,0 +1,75 @@
+mysql> use AdventureWorks
+Database changed
+mysql> INSERT INTO ProductCategoty VALUES (4,'Misc');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> SELECT * FROM
+    ->  ProductCategoty;
++-------------------+-------------+
+| ProductCategoryID | name        |
++-------------------+-------------+
+|                 1 | bikes       |
+|                 2 | cars        |
+|                 3 | accessories |
+|                 4 | Misc        |
++-------------------+-------------+
+4 rows in set (0.00 sec)
+
+mysql> CREATE TABLE ToDrop(id int, name varchar(10));
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> INSERT INTO ToDrop VALUES (1,'abcd');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> INSERT INTO ToDrop VALUES (2,'efgh');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> INSERT INTO ToDrop VALUES (3,'ijkl');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> CREATE TABLE ToDelete(id int, name varchar(10));
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> INSERT INTO ToDrop VALUES (1,'abcd');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> INSERT INTO ToDrop VALUES (2,'efgh');
+Query OK, 1 row affected (0.02 sec)
+
+mysql> INSERT INTO ToDrop VALUES (3,'ijkl');
+Query OK, 1 row affected (0.05 sec)
+
+mysql> CREATE TABLE ToTruncate(id int, name varchar(10));
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> INSERT INTO ToDrop VALUES (1,'abcd');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> INSERT INTO ToDrop VALUES (2,'efgh');
+Query OK, 1 row affected (0.03 sec)
+
+mysql> INSERT INTO ToDrop VALUES (3,'ijkl');
+Query OK, 1 row affected (0.05 sec)
+
+mysql> SHOW TABLES;
++--------------------------+
+| Tables_in_adventureworks |
++--------------------------+
+| productcategoty          |
+| todelete                 |
+| todrop                   |
+| totruncate               |
++--------------------------+
+4 rows in set (0.00 sec)
+
+mysql> DROP TABLE ToDrop;
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> TRUNCATE TABLE ToTruncate;
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> SELECT * FROM ToDrop;
+ERROR 1146 (42S02): Table 'adventureworks.todrop' doesn't exist
+mysql> SELECT * FROM ToTruncate;
+Empty set (0.00 sec)
+
